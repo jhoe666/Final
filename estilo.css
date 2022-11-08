@@ -1,0 +1,92 @@
+main{
+    height: 680px;
+    width: 980px;
+    background-color: deepskyblue;
+    margin: auto;
+}
+header{
+    height: 150px;
+    background-color: brown;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    position: relative;
+    float: left;
+}
+header h1{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+nav{
+    height: 60px;
+    background-color: green;
+}
+nav ul{
+    text-align: center;
+    position: absolute;
+}
+nav ul li{
+    text-align: center;
+    display: inline;
+    background-color: goldenrod;
+    margin: 3px;
+    padding: 5px;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    background-color: grey;
+}
+article{
+    width: 580px;
+    height: 390px;
+    float: right;
+    background-color: blueviolet;
+    position: relative;
+    text-align: left;
+}
+article #formulario{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.formu{
+    margin: 5px;
+}
+button{
+    margin-left: 250px;
+    margin-top: 5px;
+}
+aside{
+    width: 400px;
+    height: 390px;
+    float: left;
+    background-color: cadetblue;
+    position: relative;
+    text-align: center;
+    color: rebeccapurple;
+}
+aside img{
+    height: 200px;
+    width: 200px;
+    padding-top: 50px;
+}   
+.clear{
+    clear: both;
+}
+footer{
+    height: 80px;
+    background-color: bisque;
+    color: chocolate;
+
+}
+footer h2{
+    text-decoration: underline;
+    text-align:right;
+    margin-right: 20px;
+}
